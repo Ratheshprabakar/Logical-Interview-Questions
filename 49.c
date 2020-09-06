@@ -12,9 +12,9 @@ int main()
 	j=strlen(array)-1;
 	for(i=0;j>i;)
 	{
-		if(array[i]>=65 && array[i]<=90)
+		if((array[i]>=65 && array[i]<=90) || (array[i]>=97 && array[i]<=122))
 		{
-			if(array[j]>=65 && array[j]<=90)
+			if((array[j]>=65 && array[j]<=90) || (array[i]>=97 && array[i]<=122))
 			{
 				array[i]=array[i]^array[j];
 				array[j]=array[i]^array[j];
