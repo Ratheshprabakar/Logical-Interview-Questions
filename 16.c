@@ -6,23 +6,23 @@ int main()
 {
 	int i,j;
 	char array[50];
-	static int hash[100];
+	static int hash[27];
 	scanf("%s",&array);
 	for(i=0;i<strlen(array);i++)
 	{
 		if(array[i]==array[i+1])
 		{
-			hash[array[i]-'0']++;
+			hash[array[i]-'a']++;
 			i++;
 		}
 		else
 		{
-			hash[array[i]-'0']++;	
+			hash[array[i]-'a']++;	
 		}
 	}
 	for(j='a';j<='z';j++)
 	{
-		if(hash[j-'0']!=0)
-			printf("\n%c occurs %d times",j,hash[j-'0']);
+		if(hash[j-'a']!=0)
+			printf("\n%c occurs %d times",j,hash[j-'a']);
 	}
 }
