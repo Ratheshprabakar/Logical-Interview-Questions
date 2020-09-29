@@ -17,6 +17,7 @@ int main()
 			{
 			printf("%c",array[i]);	
 			}
+			i++;
 		}
 		else
 		{
