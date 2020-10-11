@@ -4,7 +4,7 @@ Input : [ 2 2 3 4 5 12 2 3 3 3 12 ] Output : 3 3 3 3 2 2 2 12 12 4 5*/
 int main()
 {
 	int n,i,j,flag=1,count=0,*array,output[100][2],k=0,element;
-	printf("Enter the number of elements in an arraty\t");
+	printf("Enter the number of elements in an array\t");
 	scanf("%d",&n);
 	array=(int *)malloc(n*sizeof(int));
 	for(i=0;i<n;i++)
