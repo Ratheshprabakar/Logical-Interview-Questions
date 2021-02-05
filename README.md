@@ -1,3 +1,3 @@
 # Logical-Interview-Questions
 
-This repository will contains some logical coding questions which is asked by leading IT companies and solved using C language.
+- [prime number : print n prime numbers] (https://github.com/Ratheshprabakar/Logical-Interview-Questions/blob/master/1.c)
